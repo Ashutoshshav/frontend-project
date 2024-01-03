@@ -26,11 +26,3 @@ function slideShow(num) {
 
         sliders[num].style.display = "block";
 }
-
-/* let body = document.querySelector("body");
-
-body.addEventListener("click", function() {
-        let menuItem = document.querySelector(".menu-item");
-
-        menuItem.style.left = -220;
-}) */

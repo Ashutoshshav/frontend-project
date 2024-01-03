@@ -93,7 +93,6 @@
 
         .dish-discription a:hover {
                 box-shadow: 4px 4px 10px rgb(37, 37, 37);
-                /* background-color: rgb(175, 211, 202); */
         }
 }
 
@@ -229,9 +228,3 @@
                 padding: 8px 25px;
         }
 }
-
-/* @media screen and (min-width: 321px) and (max-width: 376px) {
-        .dish-discription a {
-                margin: 40px;
-        }
-} */
