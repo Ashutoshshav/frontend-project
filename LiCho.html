@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/LiCho/LiCho-assets/LiCho-logo.png">
+        <title>LiCho</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="LiCho.css">
+        <link rel="stylesheet" href="stylecheck.css">
+</head>
+<body>
+        <header>
+                <div class="nav-top">
+                        <div class="nav-title">
+                                <h1>LiCho</h1>
+                        </div>
+
+                        <div class="nav-search">
+                                <div class="location">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                </div>
+
+                                <select name="select" class="select-location">
+                                        <option value="India">Bharat</option>
+                                        <option value="USA">USA</option>
+                                        <option value="UAE">UAE</option>
+                                </select>
+
+                                <div class="search">
+                                        <input type="text" placeholder="Search Dishes">
+                                </div>
+
+                                <div class="search-glass">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                        </div>
+
+                        <div class="create-account">
+                                <a href="#" class="account login">Login</a>
+                                <a href="#" class="account sign-up">Sign-Up</a>
+                        </div>
+                </div>
+
+                <div class="nav-buttom">
+                        <div class="menu">
+                                <input type="checkbox" name="" id="check">
+                                <label for="check" class="menu-icon">
+                                        <i class="fa-solid fa-bars"></i>
+                                </label>
+
+                                <div class="menu-item">
+                                        <div class="item1 menu-flex">
+                                                <i class="fa-solid fa-house"></i>
+                                                <p class="menu-flex-text"><a href="">Home</a></p>
+                                        </div>
+
+                                        <div class="item3 menu-flex">
+                                                <i class="fa-solid fa-utensils"></i>
+                                                <p class="menu-flex-text"><a href="">Dishes</a></p>
+                                        </div>
+
+                                        <div class="item2 menu-flex">
+                                                <i class="fa-solid fa-address-card"></i>
+                                                <p class="menu-flex-text"><a href="">About</a></p>
+                                        </div>
+
+                                        <div class="item2 menu-flex">
+                                                <i class="fa-solid fa-phone"></i>
+                                                <p class="menu-flex-text"><a href="">Contact</a></p>
+                                        </div>
+
+                                        <div class="item2 menu-flex">
+                                                <i class="fa-solid fa-comments"></i>
+                                                <p class="menu-flex-text"><a href="">Feedback</a></p>
+                                        </div>
+
+                                        <div class="media-icon">
+                                                <i class="fa-brands fa-facebook"></i>
+                                                <i class="fa-brands fa-instagram"></i>
+                                                <i class="fa-brands fa-whatsapp"></i>
+                                                <i class="fa-brands fa-linkedin"></i>
+                                        </div>
+                                </div>
+                        </div>
+                        
+                        <div class="nav-link">
+                                <a href=""><p>Offers</p></a>
+                                <a href=""><p>Customer Service</p></a>
+                                <a href=""><p>Our Menu</p></a>
+                        </div>
+                </div>
+        </header>
+
+        <main>
+                <div class="dish-slider">
+                        <div class="slider-img">
+                                <img src="/LiCho/LiCho-assets/dalchawal.jpeg" alt="dalchawal">
+                        </div>
+
+                        <div class="slider-img">
+                                <img src="/LiCho/LiCho-assets/litti-chokha.jpg" alt="Litti-Chokha">
+                        </div>
+        
+                        <div class="slider-img">
+                                <img src="/LiCho/LiCho-assets/Kheer.jpg" alt="Kheer">
+                        </div>
+        
+                        <div class="slider-img">
+                                <img src="/LiCho/LiCho-assets/satturecipe.jpg" alt="Satturecipe">
+                        </div>
+        
+                        <div class="slider-img">
+                                <img src="/LiCho/LiCho-assets/sattu.jpg" alt="Sattu">
+                        </div>
+                        
+                        <div class="slider-button">
+                                <a class="prev button" onclick="Slider(-1)">&#10094;</a>
+        
+                                <a class="next button" onclick="Slider(1)">&#10095;</a>
+                        </div>
+                </div>
+
+                <div class="dish-discription">
+                        <a href="#">
+                                <div class="dish">
+                                        <img src="/LiCho/LiCho-assets/img1.jpg" alt="Litti-Chokha">
+                                        <div class="dish-info">
+                                                <h4>Litti-Chokha</h4>
+                                                <p><strong>Rate:</strong>10</p>
+                                                <p><strong>2 Pices</strong></p>
+                                        </div>
+                                </div>
+                        </a>
+
+                        <a href="#">
+                                <div class="dish">
+                                        <img src="/LiCho/LiCho-assets/img2.jpeg" alt="Dal-Chawal">
+                                        <div class="dish-info">
+                                                <h4>Dal-Chawal</h4>
+                                                <p><strong>Rate:</strong>12</p>
+                                                <p><strong>Half-Plate</strong></p>
+                                        </div>
+                                </div>
+                        </a>
+
+                        <a href="#">
+                                <div class="dish">
+                                        <img src="/LiCho/LiCho-assets/img3.jpeg" alt="Kheer">
+                                        <div class="dish-info">
+                                                <h4>Kheer</h4>
+                                                <p><strong>Rate:</strong>20</p>
+                                                <p><strong>Half-Plate</strong></p>
+                                        </div>
+                                </div>
+                        </a>
+
+                        <a href="#">
+                                <div class="dish">
+                                        <img src="/LiCho/LiCho-assets/img4.jpg" alt="Chana-Sattu">
+                                        <div class="dish-info">
+                                                <h4>Chana-Sattu</h4>
+                                                <p><strong>Rate:</strong>20</p>
+                                                <p><strong>Per glass</strong></p>
+                                        </div>
+                                </div>
+                        </a>
+
+                        <a href="#">
+                                <div class="dish">
+                                        <img src="/LiCho/LiCho-assets/img5.jpg" alt="Sattu">
+                                        <div class="dish-info">
+                                                <h4>Sattu</h4>
+                                                <p><strong>Rate:</strong>150</p>
+                                                <p><strong>Per KG</strong></p>
+                                        </div>
+                                </div>
+                        </a>
+
+                        <a href="#">
+                                <div class="dish">
+                                        <img src="/LiCho/LiCho-assets/img6.jpg" alt="Chhola-Bhatura">
+                                        <div class="dish-info">
+                                                <h4>Chhola-Bhatura</h4>
+                                                <p><strong>Rate:</strong>20</p>
+                                                <p><strong>2 Pices</strong></p>
+                                        </div>
+                                </div>
+                        </a>
+
+                        <a href="#">
+                                <div class="dish">
+                                        <img src="/LiCho/LiCho-assets/img7.jpg" alt="Dahi-Vada">
+                                        <div class="dish-info">
+                                                <h4>Dahi-Vada</h4>
+                                                <p><strong>Rate:</strong>15</p>
+                                                <p><strong>3 Pices</strong></p>
+                                        </div>
+                                </div>
+                        </a>
+
+                        <a href="#">
+                                <div class="dish">
+                                        <img src="/LiCho/LiCho-assets/poha.jpeg" alt="Poha">
+                                        <div class="dish-info">
+                                                <h4>Poha</h4>
+                                                <p><strong>Rate:</strong>20</p>
+                                                <p><strong>Half-Plate</strong></p>
+                                        </div>
+                                </div>
+                        </a>
+
+                        <a href="#">
+                                <div class="dish">
+                                        <img src="/LiCho/LiCho-assets/Lassi.jpeg" alt="Chana-Sattu">
+                                        <div class="dish-info">
+                                                <h4>Chana-Sattu</h4>
+                                                <p><strong>Rate:</strong>20</p>
+                                                <p><strong>Per glass</strong></p>
+                                        </div>
+                                </div>
+                        </a>
+
+                        <a href="#">
+                                <div class="dish">
+                                        <img src="/LiCho/LiCho-assets/img1.jpg" alt="Litti-Chokha">
+                                        <div class="dish-info">
+                                                <h4>Litti-Chokha</h4>
+                                                <p><strong>Rate:</strong>10</p>
+                                                <p><strong>2 Pices</strong></p>
+                                        </div>
+                                </div>
+                        </a>
+                </div>
+                <!-- <div class="dish-discription">
+                        
+                </div> -->
+        </main>
+
+        <footer>
+                <div class="footer-header"><h2>LiCho</h2></div>
+
+                <div class="footer-details">
+                        <div class="about footer-details-item">
+                                <a href="#">About</a>
+                                <a href="#">About us</a>
+                                <a href="#">About</a>
+                                <a href="#">About us</a>
+                        </div>
+
+                        <div class="dealers footer-details-item">
+                                <a href="#">dealers</a>
+                                <a href="#">About</a>
+                                <a href="#">About</a>
+                                <a href="#">dealers</a>
+                        </div>
+
+                        <div class="retailers footer-details-item">
+                                <a href="#">retailers</a>
+                                <a href="#">About</a>
+                                <a href="#">About</a>
+                                <a href="#">retailers</a>
+                        </div>
+
+                        <div class="about-creater footer-details-item">
+                                <a href="#">about-creater</a>
+                                <a href="#">About</a>
+                                <a href="#">About</a>
+                                <a href="#">about-creater</a>
+                        </div>
+                </div>
+        </footer>
+        <script src="LiCho.js"></script>
+</body>
+</html>

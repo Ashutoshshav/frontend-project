@@ -1,0 +1,237 @@
+@media screen and (max-width: 416px) {
+        * {
+                font-size: 100%;
+        }
+
+        .nav-top {
+                height: 50px;
+        }
+
+        .nav-search {
+                width: 90%;
+                height: 35px;
+        }
+
+        .location i {
+                margin-top: 10px;
+                font-size: medium;
+                margin-left: 5px;
+        }
+
+        .nav-search select {
+                margin-top: -1px;
+                font-size: small;
+        }
+
+        .search input[placeholder] {
+                font-size: 11.5px;
+        }
+
+        .search-glass i {
+                font-size: 14px;
+                margin-right: 5px;
+        }
+        
+        .login {
+                font-size: small;
+                display: block;
+                padding: 12px 10px;
+        }
+
+        .sign-up {
+                display: none;
+        }
+
+        .nav-buttom {
+                height: 35px;
+        }
+
+        .menu-icon i {
+                font-size: 12px;
+        }
+
+        .menu-item {
+                width: 130px;
+                top: 84px;
+        }
+
+        .menu-flex {
+                font-size: small;
+                padding: 8px 0px;
+        }
+
+        .media-icon i {
+                font-size: small;
+        }
+
+        .nav-link a {
+                font-size: 10px;
+        }
+        
+        .slider-img {
+                display: none;
+                width: 100%;
+                height: 250px;
+        }
+
+        .button {
+                top: 170px;
+        }
+
+        .dish-discription {
+                display: block;
+        }
+
+        .dish {
+                background-color: rgb(218, 239, 234);
+                box-shadow: 1px 1px 8px rgb(37, 37, 37);
+                border-radius: 0 0 0.5rem 0.5rem;
+                margin: 8px;
+                width: auto;
+                height: 350px;
+        }
+
+        .dish-discription a:hover {
+                box-shadow: 4px 4px 10px rgb(37, 37, 37);
+                /* background-color: rgb(175, 211, 202); */
+        }
+}
+
+@media screen and (min-width: 416px) and (max-width: 668px) {
+        h1 {
+                font-size:x-large;
+        }
+        
+        .nav-search {
+                width: 65%;
+                height: 40px;
+        }
+
+        .location i {
+                font-size: medium;
+                margin-left: 5px;
+                margin-left: 5px;
+        }
+
+        .nav-search select {
+                font-size: small;
+        }
+
+        .search input[placeholder] {
+                font-size: small;
+        }
+
+        .search-glass i {
+                margin-right: 5px;
+        }
+
+        .login {
+                font-size: small;
+                padding: 12px 10px;
+        }
+
+        .sign-up {
+                font-size: small;
+                padding: 12px 0px;
+        }
+
+        .nav-buttom {
+                height: 40px;
+        }
+
+        .menu-icon i {
+                font-size: 15px;
+        }
+
+        .menu-item {
+                width: 180px;
+                top: 99px;
+        }
+
+        .menu-flex {
+                padding: 12px 0px;
+        }
+
+        .media-icon i {
+                font-size: medium;
+        }
+
+        .dish-discription {
+                grid-template-columns: auto auto;
+        }
+
+        .slider-img {
+                width: 100%;
+                height: 310px;
+        }
+
+        .button {
+                top: 225px;
+        }
+
+        .nav-link a {
+                font-size: 12px;
+        }
+
+        .dish-discription a {
+                height: 330px;
+        }
+}
+
+@media screen and (min-width: 669px) and (max-width: 1025px) {
+        h1 {
+                font-size: 28px;
+        }
+
+        .search-glass i {
+                margin-right: 5px;
+        }
+
+        .location i {
+                margin-left: 5px;
+        }
+        
+        .account {
+                font-size: small;
+        }
+
+        .menu-icon i {
+                font-size: 16.5px;
+        }
+
+        .nav-link a {
+                font-size: 15px;
+        }
+
+        .dish-discription {
+                grid-template-columns: auto auto auto;
+        }
+
+        .button {
+                top: 265px;
+        }
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1498px) {
+        .location i {
+                margin-left: 5px;
+        }
+
+        .search-glass i {
+                margin-right: 5px;
+        }
+
+        .account {
+                font-size: small;
+        }
+
+        .sign-up {
+                padding: 8px 25px;
+        }
+}
+
+/* @media screen and (min-width: 321px) and (max-width: 376px) {
+        .dish-discription a {
+                margin: 40px;
+        }
+} */
